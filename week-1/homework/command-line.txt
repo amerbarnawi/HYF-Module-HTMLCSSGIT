@@ -1,0 +1,28 @@
+CLI - Questions:
+
+1-How do I create a hidden file or folder ? How do I display it in the CLI ?
+
+To create a folder you can use the command ( mkdir folder-name ) , to hide this folder ..
+you can use the command ( mv folder-name .folder-name ) which mean to put (.) before the folder-name.
+To create a file,you can use the command ( touch file-name ) and to hide it you can put (.) before the file-name with the command mv 
+: ( mv file-name .file-name)
+
+you can display the hidden file or folder by command ( ls -a ).
+
+
+2- How do I create multiple nested directories?
+
+to creat folders you can use ( mkdir ) with flag ( -p ):
+
+mkdir -p folder1/folder2/folder3 ...
+
+
+
+3- How I append a message to a file, without a newline character?
+
+I understood you want like this ( firstmessage-secondmessage) without a newline character ( it will appear without - ).
+
+for that, you can use ( touch filename.txt ) to creat a new file.
+then, the command ( echo -n "firstmessage" >> filename.txt).
+after that, the command ( echo -n " secondmessage" >> filename.txt ).
+the command ( cat filename.txt ) to see the result.
