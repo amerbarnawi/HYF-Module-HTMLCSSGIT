@@ -417,7 +417,16 @@ footer .footer-lists .list ul {
 
     footer .footer-lists {
         padding-right: 10px;
-    }  
+    }
+    
+    .section1 img {
+        height : 300px;
+    }
+
+    .header .driver-img {
+        height: 672px;
+        width:auto;
+    }
 }
     
 
