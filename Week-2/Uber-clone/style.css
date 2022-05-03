@@ -420,12 +420,13 @@ footer .footer-lists .list ul {
     }
     
     .section1 img {
-        height : 300px;
+        height : 100%;
+        width: 100%;;
     }
 
     .header .driver-img {
-        height: 672px;
-        width:auto;
+        height: 100%;
+        width:100%;
     }
 }
     
