@@ -428,6 +428,13 @@ footer .footer-lists .list ul {
         height: 100%;
         width:100%;
     }
+    
+     .safety1 img,p {
+        width: 90%;
+    }
+    .safety2 img,p {
+        width: 90%;
+    }
 }
     
 
